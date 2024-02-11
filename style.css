@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: #6F6AF7;
+
+    padding: 10px;
+    display: flex; /* Add Flexbox layout */
+    justify-content: space-between; /* Align logo and nav items at the ends */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+nav .logo a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 10px;
+    top: 27px;
+    left: 44px
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+nav ul li.search {
+    padding-top: 7px;
+}
+
+nav ul li.search input[type="text"] {
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    
+}
+nav ul li img {
+    height: 30px;
+    width: 30px;
+    margin: 5px 20px 5px 20px;
+}
+nav ul li {
+    float: left;
+    /* margin-right: 10px; */
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+.social {
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    transform: translateY(-50%);
+    /* background-color: #6F6AF7; */
+    position: fixed;
+}
+
+.social  img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.image-box{
+    border: 3px solid black;
+    border-radius: 11px;
+    /* padding: 5px; */
+    margin: 5px;
+
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color:white;
+    padding: 100px 70px 100px 70px;
+  }
+  
+  .flex-container > div {
+    background-color: white;
+    margin: 10px;
+    /* padding: 20px ; */
+    font-size: 30px;
+    top:100px;
+  }
+  
+  .image-box2 img {
+      height: 300px;
+      width: 300px;
+      border-radius: 20px;
+      /* margin: 5px; */
+  }
+  .flex-container textarea{
+      height: 300px;
+      width: 900px;
+      border-radius: 20px;
+      background: linear-gradient(0deg, #E5D8FF, #E5D8FF),linear-gradient(0deg, #FFFFFF, #FFFFFF);
+      font-family: DM Sans;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 52px;
+      letter-spacing: 0em;
+      text-align: left;
+      
+
+  }
+/* second part */
+  .flex-container-2 {
+    display: flex;
+    background-color:white;
+    padding: 0px 90px 20px 90px;
+  }
+  
+  .flex-container-2 > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 5px 5px 5px 30px;
+    font-size: 20px;
+    box-shadow: 0px 9px 31px 0px #00000066;
+    width: 337px;
+    height: 145.48px;
+    left: 101px;
+    border-radius: 11px;
+    font-family: DM Sans;
+    color: white;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: left;
+  }
+
+/* float icon  */
+.floating-help-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    background-position: center;
+    padding: 5px;
+    /* background-color: white; */
+
+}
+
+.floating-help-icon img {
+    width: 70px; /* Adjust the size of the icon as needed */
+    height: auto;
+    border-radius: 50%; /* For circular icons */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow effect */
+}
+
+  /* third part */
+  .part3{
+    padding: 0px 90px 20px 90px;
+    margin: 30px;
+  }
+  .flex-container-3 {
+    background-color:#6F6AF7;
+    border-radius: 11px;
+    display: flex;
+    padding: 0px 90px 20px 90px;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex-container-3 > div {
+    margin: 10px;
+    padding: 5px 5px 5px 30px;
+    font-size: 20px;
+    width: 337px;
+    height: auto;
+    left: 101px;
+    border-radius: 11px;
+    font-family: DM Sans;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: left;
+
+  }
+.your-info{
+    margin: 10px;
+    padding: 10px;
+    background-color: #BCE0F6;
+    /* border: 3px solid white; */
+    border-radius: 11px;
+    text-align: center;
+    color: black;
+
+}
+.bookmark{
+    margin: 10px;
+    padding: 10px;
+    background-color: #6F6AF7;
+    border: 3px solid white;
+    border-radius: 11px;
+    text-align: center;
+    color: white;
+
+}
+.setting{
+    margin: 10px;
+    padding: 10px;
+    background-color: #6F6AF7;
+    border: 3px solid white;
+    border-radius: 11px;
+    text-align: center;
+    color: white;
+
+}
+
+.next-button {
+   
+    /* transform: translateY(-50%); */
+    /* padding: 10px 15px; */
+    background-color: black; /* Example background color */
+    color: white; /* Example text color */
+    /* border: none; */
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    font-size: 20px; 
+    right: 0px;
+    left: 200px;
+  }
+  
+ .next-button img {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+  }
